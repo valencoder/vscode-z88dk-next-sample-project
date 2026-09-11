@@ -8,6 +8,8 @@ int main(void)
 {
     clear_ula();
 
+    printf("Valen Next \n");
+
     printf("Fibonacci(5) = %d\n", fibonacci(5));
     printf("Factorial(5) = %d\n", factorial(5));
 
