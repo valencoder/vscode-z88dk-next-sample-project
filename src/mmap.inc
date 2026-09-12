@@ -4,6 +4,10 @@ SECTION PAGE_20_CODE
     ORG 0x14C000
 SECTION ALIAS_FOR_PAGE_20_CODE ; if useful some aliases can be added after the org instruction
 
+SECTION PAGE_21_CODE
+    ; page 0x15 (21) -> bank 10 (together with page 20)
+    ORG 0x15C000
+
 SECTION PAGE_22_CODE
     ; most significative byte (0x16) identifies the page
     ; less significative two bytes (0xC000) identifies where the page will be mapped (in the 64k memory)
